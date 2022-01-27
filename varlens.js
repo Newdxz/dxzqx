@@ -5,7 +5,7 @@
 *******************************
 [rewrite_local]
 # > varlens 解锁永久会员
-^https?:\/\/mid\.zineapi\.com\/\@varlens\/api\/user\/info\/ url script-response-body https://raw.githubusercontent.com/Newdxz/dxzqx/main/varlens.js
+^https?:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ url script-response-body https://raw.githubusercontent.com/Newdxz/dxzqx/main/varlens.js
 [mitm] 
 hostname = mid.zineapi.com
 *
