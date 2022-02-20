@@ -1,4 +1,6 @@
-
+/*
+ *
+ *
  
 [rewrite_local]
 
@@ -9,6 +11,11 @@
 [mitm] 
 
 hostname=api.revenuecat.com
+
+*
+*
+*/
+
 
 
 
