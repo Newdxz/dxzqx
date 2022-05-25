@@ -5,9 +5,9 @@
 *******************************
 [rewrite_local]
 # > varlens 解锁永久会员
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Newdxz/dxzqx/main/varlens.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Newdxz/dxzqx/main/pro.js
 [mitm] 
-hostname = mid.zineapi.com
+hostname = buy.itunes.apple.com
 *
 *
 */
