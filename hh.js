@@ -35,5 +35,40 @@ hostname=api.revenuecat.com
 
 
 
-var fdb={"request_date": "2020-06-05T11:54:41Z", "request_date_ms": 1591358081473, "subscriber": {"entitlements": {"filebox_pro": {"expires_date": "2030-02-18T07:52:54Z", "product_identifier": "com.premium.yearly", "purchase_date": "2020-02-11T07:52:54Z"}}, "first_seen": "2020-05-29T07:59:41Z", "last_seen": "2020-06-05T11:46:28Z", "management_url": null, "non_subscriptions": {}, "original_app_user_id": "RbhyxwVVYSgnnUEtme2444PjccJ3", "original_application_version": "102", "original_purchase_date": "2020-05-29T07:47:32Z", "other_purchases": {}, "subscriptions": {"com.premium.yearly": {"billing_issues_detected_at": null, "expires_date": "2030-02-18T07:52:54Z", "is_sandbox": false, "original_purchase_date": "2020-02-11T07:52:55Z", "period_type": "normal", "purchase_date": "2020-02-11T07:52:54Z", "store": "app_store", "unsubscribe_detected_at": null}}}};
+
+var fdb = {
+  "request_date": "2022-07-20T05:46:58Z",
+  "request_date_ms": 1658296018538,
+  "subscriber": {
+    "entitlements": {
+      "filebox_pro": {
+        "expires_date": null,
+        "grace_period_expires_date": null,
+        "product_identifier": "filebox_pro",
+        "purchase_date": "2022-06-10T14:46:44Z"
+      }
+    },
+    "first_seen": "2022-06-10T14:40:25Z",
+    "last_seen": "2022-07-20T05:45:53Z",
+    "management_url": null,
+    "non_subscriptions": {
+      "filebox_pro": [{
+        "id": "08a64bc33a",
+        "is_sandbox": false,
+        "original_purchase_date": "2022-06-10T14:46:44Z",
+        "purchase_date": "2022-06-10T14:46:44Z",
+        "store": "app_store"
+      }]
+    },
+    "original_app_user_id": "$RCAnonymousID:bcf9c59eb0d64fc396e6b222039079ed",
+    "original_application_version": "134",
+    "original_purchase_date": "2022-05-04T15:11:26Z",
+    "other_purchases": {
+      "filebox_pro": {
+        "purchase_date": "2022-06-10T14:46:44Z"
+      }
+    },
+    "subscriptions": {}
+  }
+}
 $done({body : JSON.stringify(fdb)});
