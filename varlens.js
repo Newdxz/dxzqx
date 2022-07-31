@@ -17,24 +17,31 @@ var objc = JSON.parse($response.body);
       
     objc = 
 {
-    "success": true,
-    "data": {
-    "username": "dustudent",
-    "app_name": "dustudent",
+  "success": true,
+  "data": {
+    "username": "duxz@varlens",
+    "app_name": "varlens",
     "nick": null,
     "email": "",
+    "uid": "3lrpvb4zji",
     "status": 0,
+    "is_guest": false,
+    "is_staff": false,
+    "is_admin": false,
     "preferences": null,
     "membership": {
-    "role_name": "pro",
-    "begin_time": "2021-03-13T09:59:11.485Z",
-    "end_time": "2099-12-31T00:00:00.481Z",
-    "begin_time_ms": 1615629551485,
-    "end_time_ms": 4102325303000
+      "role_name": "pro",
+      "begin_time": "2022-07-30T04:46:37.461Z",
+      "end_time": "2099-07-31T10:55:34Z",
+      "begin_time_ms": 1659156397461,
+      "end_time_ms": 4089149734000
     },
-    "social_apple_id": null
-    }
-      
+    "social_apple_id": null,
+    "created_datetime": "2021-12-18T05:29:01.076Z",
+    "created_datetime_ms": 1639805341076,
+    "last_login_datetime": "2022-07-31T02:42:51.402Z",
+    "last_login_datetime_ms": 1659235371402
+  }
 };
 
 $done({body : JSON.stringify(objc)});
